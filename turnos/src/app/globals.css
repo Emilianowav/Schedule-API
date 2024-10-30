@@ -1,0 +1,52 @@
+/* styles/globals.css */
+
+/* Reiniciar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos base para elementos HTML */
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /* Tamaño de fuente base */
+    line-height: 1.6; /* Altura de línea base */
+    color: #333; /* Color de texto base */
+    background-color: #fff; /* Color de fondo base */
+    height: 100%; /* Altura del cuerpo completa */
+}
+
+/* Eliminar subrayado en enlaces */
+a {
+    text-decoration: none;
+    color: inherit; /* Hereda color del texto base */
+}
+
+/* Eliminar estilos predeterminados en listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Estilos base para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2; /* Altura de línea más estrecha */
+}
+
+/* Eliminar bordes predeterminados en botones y entradas */
+button, input, textarea {
+    border: none;
+    outline: none;
+}
+
+/* Ajustes básicos para tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Ajustes para imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes no se salgan del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}

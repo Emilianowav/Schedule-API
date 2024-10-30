@@ -1,0 +1,99 @@
+.container {
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    padding-right: 8%;
+    background-color: #e6f7ff; /* Azul claro muy suave para el fondo */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+  
+.h1 {
+    text-transform: uppercase;
+    color: #003366; /* Azul oscuro suave */
+    font-size: 3rem;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}
+  
+.ul {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 10%;
+    list-style: none;
+    max-width: 1000px;
+}
+  
+.div {
+    height: auto;
+    text-align: start;
+    border: 4px solid #a3c1d1; /* Borde azul grisáceo suave */
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: #f0f8ff; /* Azul muy claro para los ítems */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-sizing: content-box;
+}
+  
+.h3 {
+    color: #001f3f; 
+    font-size: 2.5rem; /* Ajusta el tamaño de la fuente entre un rango mínimo y máximo */
+    margin: 0;
+    display: -webkit-box;            /* Se usa para crear un contenedor flexible */
+    -webkit-box-orient: vertical;    /* Orienta el contenido en una caja vertical */
+    line-clamp: 2;                  /* Limita el texto a un máximo de 2 líneas */
+    max-width: 100%;
+}
+  
+.h4 {
+    color: #006699; /* Azul medio más relajante */
+    font-size: 2rem;
+    margin: 5px 0;
+}
+  
+.h5 {
+    color: #3399cc; /* Azul brillante pero suave */
+    font-size: 1.7rem;
+    margin: 5px 0;
+}
+  
+.h6 {
+    color: #003d66; /* Azul pastel suave */
+    font-size: 1.4rem;
+    margin: 5px 0;
+}
+
+.button {
+    width: auto;
+    position: absolute;
+    left: 3%;
+    border-radius: 24px;
+    background-color: #f0f8ff; /* Fondo azul muy claro */
+    border: 2px solid #a3c1d1; /* Borde azul grisáceo */
+    width: 64px;
+    height: 48px;
+    margin-top: 12px;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #d9eefc; /* Azul claro al hacer hover */
+}
+
+.trash {
+    position: absolute;
+    width: 100%;
+    border-radius: 24px;
+    background-color: #f0f8ff; /* Fondo azul muy claro */
+    border: 2px solid #a3c1d1; /* Borde azul grisáceo */
+    width: 48px;
+    height: 48px;
+}
+.trash:hover {
+    cursor: pointer;
+    background-color: #d9eefc; /* Fondo más oscuro al hacer hover */
+}
