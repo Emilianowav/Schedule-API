@@ -1,0 +1,13 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul {
+    width: 80%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 100%;
+    list-style: none;
+}

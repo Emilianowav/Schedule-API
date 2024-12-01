@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #e6f7ff; /* Azul claro para el fondo */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
